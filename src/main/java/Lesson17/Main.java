@@ -13,8 +13,7 @@ public class Main extends Module{
         } catch (InvalidPaymentAmountException e) {
             System.out.println("Selected amount is not allowed. Please try amount bigger than 0");
         } catch (BankProcessingFailedException e) {
-            System.out.println("Internal system error. Please try again");
-
+            System.out.println("Internal system error. Please try again later");
         }
     }
 }
