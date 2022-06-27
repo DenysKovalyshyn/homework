@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Group">
+    <test name="Group of tests">
+        <groups>
+            <run>
+                <include name="group2"/>
+                <exclude name="group1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="lesson20_21.WomanTest1"/>
+            <class name="lesson20_21.WomanTest2"/>
+            <class name="lesson20_21.ManTest1"/>
+            <class name="lesson20_21.ManTest2"/>
+        </classes>
+    </test>
+</suite>

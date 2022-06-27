@@ -4,6 +4,11 @@ import Lesson15.Person;
 
 public class Woman extends Person {
     private final String partnerLastName = "Windsor";
+
+    public String getPartnerLastName() {
+        return partnerLastName;
+    }
+
     public Woman(String firstName, String  lastName, int age, boolean partner, String country, boolean divorce){
         super(firstName, lastName, age, partner, country, divorce);
     }
